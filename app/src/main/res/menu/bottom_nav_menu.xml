@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/films"
+        android:icon="@drawable/baseline_local_movies_24"
+        android:title="Films" />
+    <item
+        android:id="@+id/tickCalc"
+        android:icon="@drawable/baseline_calculate_24"
+        android:title="Ticket Calculator" />
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/baseline_info_24"
+        android:title="Info Hub" />
+</menu>
