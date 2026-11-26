@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MDA2V2">
         <activity
-            android:name=".films"
+            android:name=".FilmsActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -24,6 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

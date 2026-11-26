@@ -29,10 +29,14 @@ public class FilmAdapter extends ArrayAdapter<Film> {
         ImageView image = row.findViewById(R.id.imgFilm);
         TextView name = row.findViewById(R.id.tvFilmName);
         TextView info = row.findViewById(R.id.tvFilmInfo);
+        TextView genre = row.findViewById(R.id.tvFilmGenre);
+        TextView age = row.findViewById(R.id.tvFilmAge);
         if (film != null) {
             image.setImageResource(film.imageId);
             name.setText(film.name);
             info.setText(film.description);
+            genre.setText(film.genre);
+            age.setText(film.age);
         }
         return row;
     }
